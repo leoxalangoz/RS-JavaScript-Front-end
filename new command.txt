@@ -1,0 +1,21 @@
+git log - Show commit logs in reverse chronological order 
+git show [<options>] [<object>…​] - Show various types of objects
+
+
+exampl:
+$ git log
+output:
+...
+commit 08cac2883c45663db305c9f617bcf8851f59222a (remember 08cac)
+...
+
+$ git show -s --pretty=raw 08cac
+output:
+commit 08cac2883c45663db305c9f617bcf8851f59222a
+tree 213fbe8f13c4c2ac99d3bebca96e83725fa9d062
+parent 708e8030ad3f2edb974894ef939477e3054bff91
+author Olena Luganska <leox.alangoz@gmail.com> 1671378953 +0100
+committer Olena Luganska <leox.alangoz@gmail.com> 1671378953 +0100
+
+$ git ls-tree 08cac
+100644 blob dd25586d653f47b9e86a9689d3ee4644e7bb7857    readme.md
