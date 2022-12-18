@@ -1,3 +1,6 @@
+This is new branch
+
+
 or create a new repository on the command line
 
 echo "# RS-JavaScript-Front-end" >> README.md
