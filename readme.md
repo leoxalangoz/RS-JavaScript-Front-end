@@ -16,3 +16,7 @@ git push -u origin main
 
 
 !!! use 'master' insteed 'main'
+
+git branch - check how many branch has my repository
+git checkout ...name-branch - switching between branch
+git checkout -b ...name-new-branch... - add new 
