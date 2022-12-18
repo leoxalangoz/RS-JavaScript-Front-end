@@ -8,6 +8,8 @@ output:
 ...
 commit 08cac2883c45663db305c9f617bcf8851f59222a (remember 08cac)
 ...
+This is sha1 of the last commit in the master branch
+
 
 $ git show -s --pretty=raw 08cac
 output:
@@ -18,4 +20,8 @@ author Olena Luganska <leox.alangoz@gmail.com> 1671378953 +0100
 committer Olena Luganska <leox.alangoz@gmail.com> 1671378953 +0100
 
 $ git ls-tree 08cac
-100644 blob dd25586d653f47b9e86a9689d3ee4644e7bb7857    readme.md
+output:
+100644 blob dd25586d653f47b9e86a9689d3ee4644e7bb7857    readme.md (remember dd255)
+
+$ git show dd255
+output: text from readme file.
