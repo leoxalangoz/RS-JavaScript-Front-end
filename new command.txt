@@ -25,3 +25,10 @@ output:
 
 $ git show dd255
 output: text from readme file.
+
+
+
+
+_____________________________
+$ git checkout -b branch2  - add new branch on local mashine add go to it
+$ git push origin branch2 - add local branch to remote repository
